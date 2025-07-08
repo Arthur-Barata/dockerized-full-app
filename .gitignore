@@ -1,0 +1,3 @@
+./hello-go
+*node_modules*
+*.vscode*
