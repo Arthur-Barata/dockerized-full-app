@@ -25,6 +25,7 @@ services:
       - "3000:3000"
     depends_on:
       - db
+    restart: always
     volumes:
       - ./node-app:/app
 
